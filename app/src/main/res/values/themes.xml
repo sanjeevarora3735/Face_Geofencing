@@ -1,0 +1,17 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Face_Geofencing" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <item name="colorPrimary">#3878E8</item>
+    </style>
+
+    <style name="Theme.Face_Geofencing" parent="Base.Theme.Face_Geofencing" />
+
+    <style name="Theme.Face_Geofencing.GettingStarted" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:forceDarkAllowed" tools:targetApi="Q">false</item>
+        <item name="colorPrimary">@color/white</item>
+        <item name="colorPrimaryDark">@color/white</item>
+        <item name="colorAccent">@color/white</item>
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+</resources>
